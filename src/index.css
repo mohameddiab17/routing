@@ -1,0 +1,125 @@
+
+:root{
+    --main-color:#1abc9c;
+    --second-color:#2C3E50;
+}
+
+.bg-nav{
+    background-color: var(--main-color) !important;
+    
+}
+
+.gray-background{
+    /* background-color: #2C3E50; */
+    background-color: var(--second-color);
+}
+
+.font-tworem{
+    font-size: 2rem;
+}
+
+.deep-footer{
+    background-color: #1A252F;
+}
+
+.image-one{
+    width: 250px;
+}
+
+.home{
+    background-color: var(--main-color);
+}
+
+.home h2::after{
+    content: '';
+    position: absolute;
+    bottom: 17%;
+    left: 43%;
+    width: 100px;
+    height: 7px;
+    background-color: white;
+}
+.home h2::before{
+    content: '';
+    position: absolute;
+    bottom: 17%;
+    left: 52%;
+    width: 100px;
+    height: 7px;
+    background-color: white;
+}
+
+
+.about-content h1::before{
+    content: '';
+    position: absolute;
+    bottom: 17%;
+    left: 43%;
+    width: 100px;
+    height: 7px;
+    background-color: white;
+}
+
+.about-content h1::after{
+    content: '';
+    position: absolute;
+    bottom: 17%;
+    left: 52%;
+    width: 100px;
+    height: 7px;
+    background-color: white;
+}
+
+.about{
+    background-color: var(--main-color);
+}
+
+.portfolio h1{
+    color: var(--second-color);
+}
+
+.portfolio{
+    background-color: var(--main-color);
+}
+
+.portfolio h1::after{
+    content: '';
+    position: absolute;
+    bottom: 17%;
+    left: 43%;
+    width: 100px;
+    height: 7px;
+    background-color: var(--second-color);
+}
+.portfolio h1::before{
+    content: '';
+    position: absolute;
+    bottom: 17%;
+    left: 52%;
+    width: 100px;
+    height: 7px;
+    background-color: var(--second-color);
+}
+
+.contact-title h1{
+    color: var(--second-color);
+}
+
+.contact h1::before{
+    content: '';
+    position: absolute;
+    bottom: 17%;
+    left: 43%;
+    width: 100px;
+    height: 7px;
+    background-color: var(--second-color);
+}
+.contact-title h1::after{
+    content: '';
+    position: absolute;
+    bottom: 17%;
+    left: 52%;
+    width: 100px;
+    height: 7px;
+    background-color: var(--second-color);
+}
